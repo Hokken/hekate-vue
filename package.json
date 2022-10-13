@@ -1,0 +1,42 @@
+{
+  "name": "hekate-vue",
+  "version": "1.0.0",
+  "description": "Astrological interpretations",
+  "author": "Frederic Com",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "heroku-postbuild": "npm run build",
+    "generate": "nuxt generate",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.9.5",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "babel-core": "7.0.0-bridge.0",
+    "cookie-universal-nuxt": "^2.1.2",
+    "core-js": "^2.0.0",
+    "firebase": "^7.15.5",
+    "firebaseui": "^4.5.0",
+    "gsap": "^3.3.4",
+    "js-cookie": "^2.2.1",
+    "nuxt": "^2.13.0",
+    "tiptap": "^1.26.6",
+    "tiptap-extensions": "^1.28.6",
+    "connect-wwwhisper": "*"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.3",
+    "babel-jest": "^26.0.1",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "jest": "^26.0.1",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "vue-jest": "^3.0.4"
+  }
+}

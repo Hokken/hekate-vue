@@ -1,0 +1,22 @@
+// interface
+$superLightGrey: #a2a2a2;
+$lightGrey: #6f6e6e;
+$darkGrey : #303030;
+$orange: #d59713;
+$white: white;
+$black: #202020;
+$green: #078f29;
+$red: #b92d2d;
+
+// fonts
+$fontBody: white;
+
+
+@mixin site-gradient {
+  background: rgb(46, 46, 46);
+  background: linear-gradient(
+    0deg,
+    rgba(46, 46, 46, 1) 0%,
+    rgba(84, 84, 84, 1) 100%
+  );
+}
